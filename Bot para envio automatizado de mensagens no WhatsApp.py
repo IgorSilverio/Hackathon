@@ -9,8 +9,7 @@ options = webdriver.ChromeOptions()
 
 
 # options para manter o usuario da conta do google logada.
-options.add_argument(
-    "--user-data-dir=C:/Users/MV002/AppData/Local/Google/Chrome/User Data")
+options.add_argument("--user-data-dir=C:/Users/MV002/AppData/Local/Google/Chrome/User Data")
 options.add_argument("--profile-directory=Default")
 
 
